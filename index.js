@@ -1,7 +1,7 @@
 function startCelebration() {
     let name = document.getElementById("name").value.trim();
     let dob = document.getElementById("dob").value;
-    if (name !== "Cao Thị Phương" || dob !== "2007-05-07") {
+    if (name !== "Đào Minh Đức" || dob !== "2023-03-25") {
       alert("Sai thông tin! Vui lòng nhập lại.");
       return;
     }
@@ -9,7 +9,7 @@ function startCelebration() {
     document.getElementById("card").style.display = "block";
     document.getElementById(
       "greetingMessage"
-    ).innerText = `Chúc em luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    ).innerText = `Chúc mừng sinh nhật bắp. happy birthday! 💖`;
   }
   
   function startCelebration() {
@@ -23,7 +23,7 @@ function startCelebration() {
     document.getElementById("card").style.display = "block";
     document.getElementById(
       "greetingMessage"
-    ).innerText = `Chúc em luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    ).innerText = `Chúc mừng sinh nhật bắp. happy birthday! 💖`;
     createHeartPattern();
     createMovingHearts();
   }
@@ -76,7 +76,7 @@ function startCelebration() {
     document.getElementById("card").style.display = "block";
     document.getElementById(
       "greetingMessage"
-    ).innerText = `Chúc em mạnh khỏe, đỗ nguyện vọng 1, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    ).innerText = `Chúc mừng sinh nhật bắp. happy birthday! 💖`;
     setInterval(createFloatingHearts, 1000);
   }
   
@@ -92,7 +92,7 @@ function startCelebration() {
     document.getElementById("card").style.display = "block";
     document.getElementById(
       "greetingMessage"
-    ).innerText = `Chúc em mạnh khỏe, đỗ nguyện vọng 1, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    ).innerText = `Chúc mừng sinh nhật bắp. Happy birthday! 💖`;
   
     let audio = document.getElementById("bgMusic");
     audio.style.display = "block";
