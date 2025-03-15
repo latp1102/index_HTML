@@ -9,7 +9,7 @@ function startCelebration() {
     document.getElementById("card").style.display = "block";
     document.getElementById(
       "greetingMessage"
-    ).innerText = `Chúc em luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    ).innerText = `Chúc em đỗ nguyện vọng 1, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
   }
   
   function startCelebration() {
@@ -23,7 +23,7 @@ function startCelebration() {
     document.getElementById("card").style.display = "block";
     document.getElementById(
       "greetingMessage"
-    ).innerText = `Chúc em luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    ).innerText = `Chúc em đỗ nguyện vọng 1, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
     createHeartPattern();
     createMovingHearts();
   }
@@ -76,7 +76,7 @@ function startCelebration() {
     document.getElementById("card").style.display = "block";
     document.getElementById(
       "greetingMessage"
-    ).innerText = `Chúc em luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    ).innerText = `Chúc em đỗ nguyện vọng 1, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
     setInterval(createFloatingHearts, 1000);
   }
   
@@ -92,7 +92,7 @@ function startCelebration() {
     document.getElementById("card").style.display = "block";
     document.getElementById(
       "greetingMessage"
-    ).innerText = `Chúc em luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    ).innerText = `Chúc em đỗ nguyện vọng 1, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
   
     let audio = document.getElementById("bgMusic");
     audio.style.display = "block";
