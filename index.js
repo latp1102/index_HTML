@@ -100,5 +100,41 @@ function startCelebration() {
   
     setInterval(createFloatingHearts, 1000);
   }
+
+  function startCelebration() {
+    let name = "";
+    let dob = "";
+
+    while (true) {
+        name = document.getElementById("name").value.trim();
+        dob = document.getElementById("dob").value.trim();
+
+        if (name === "Cao Thị Phương" && dob === "2007-05-07") {
+            break;
+        } else {
+            alert("Sai thông tin! Vui lòng nhập lại.");
+            document.getElementById("name").value = "";
+            document.getElementById("dob").value = "";
+            return;
+        }
+    }
+
+    document.getElementById("inputContainer").classList.add("hidden");
+    document.getElementById("card").style.display = "block";
+
+    let greetingMessage = document.getElementById("greetingMessage");
+    greetingMessage.innerText = `Chúc em đỗ nguyện vọng 1, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    greetingMessage.style.color = "hotpink"; 
+    greetingMessage.style.fontWeight = "bold"; 
+    greetingMessage.style.fontSize = "20px"; 
+
+    let audio = document.getElementById("bgMusic");
+    audio.style.display = "block";
+    audio.play();
+
+    setInterval(createFloatingHearts, 1000);
+}
+
+
   
   
